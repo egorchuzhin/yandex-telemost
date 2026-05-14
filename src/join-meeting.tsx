@@ -49,10 +49,7 @@ export default function Command() {
         validate={(value) => {
           if (!value || !value.trim()) return "Please enter a meeting link or code";
           const t = value.trim();
-          const valid =
-            t.startsWith("https://telemost.yandex.ru/") ||
-            t.startsWith("j/") ||
-            /^[a-zA-Z0-9_-]+$/.test(t);
+          const valid = t.startsWith("https://telemost.yandex.ru/") || t.startsWith("j/") || /^[a-zA-Z0-9_-]+$/.test(t);
           if (!valid) return "Enter a Telemost link or meeting code";
         }}
       />
