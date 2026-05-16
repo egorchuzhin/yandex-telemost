@@ -2,6 +2,8 @@
 
 Create and join [Yandex Telemost](https://telemost.yandex.ru) meetings directly from Raycast.
 
+<img width="2000" height="1250" alt="Raycast 2026-05-15 00 26 23" src="https://github.com/user-attachments/assets/916ccd32-9a0e-4f44-8336-d5fe29eea8a9" />
+
 ## Commands
 
 - **New Meeting** — Opens Telemost, automatically clicks "Создать видеовстречу", and copies the meeting URL to your clipboard.
